@@ -1,0 +1,214 @@
+[2026-08-09T18:45:21.390Z] INFO  [skills] detectSkills found 0 active (0 in registry)
+[2026-08-09T18:45:21.407Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-09T18:45:21.812Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-09T18:45:21.820Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-09T18:45:24.243Z] INFO  [Sync:VsCodeBootstrap] Memory Bank sync engine built (auto-sync off — manual only)
+[2026-08-09T18:45:24.889Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-09T18:45:25.404Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-09T18:45:27.123Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-09T18:45:27.436Z] ERROR [initialLoad] Failed to load panels {"code":128,"killed":false,"signal":null,"cmd":"git rev-parse HEAD","stdout":"HEAD\n","stderr":"fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\n"}
+[2026-08-09T18:45:27.448Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-09T18:45:28.584Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-09T18:45:29.370Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-09T18:45:36.499Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-09T18:45:40.051Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-08-09T18:45:40.051Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-08-09T18:45:47.112Z] INFO  [Installer] Status: enabled=false, claude=false, git=false, geminiHook=false, worktreeHooks=false, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=0, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-09T18:45:48.845Z] INFO  [Installer] Status: enabled=false, claude=false, git=false, geminiHook=false, worktreeHooks=false, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=0, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-09T18:45:48.847Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-09T18:45:49.478Z] INFO  [Installer] Status: enabled=false, claude=false, git=false, geminiHook=false, worktreeHooks=false, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=0, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-09T18:45:49.487Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-09T18:45:49.913Z] INFO  [Installer] Status: enabled=false, claude=false, git=false, geminiHook=false, worktreeHooks=false, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=0, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-09T18:45:50.057Z] INFO  [activate] Auto-enabling Jolli Memory (no opt-out recorded)
+[2026-08-09T18:45:50.057Z] INFO  [bridge] enable() called
+[2026-08-09T18:45:50.134Z] INFO  [Installer] Installing Jolli Memory hooks
+[2026-08-09T18:45:50.227Z] INFO  [DispatchScripts] Wrote resolve-dist-path, run-hook, and run-cli scripts to C:\Users\my\.jolli\jollimemory
+[2026-08-09T18:45:50.232Z] INFO  [DistPathWriter] Wrote dist-paths/vscode (version=0.99.10, distDir=c:\Users\my\.vscode\extensions\jolli.jollimemory-vscode-0.99.10\dist)
+[2026-08-09T18:45:50.247Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 2) to C:\Users\my\Ai-job-App-Agent-Saas-app\.agents\skills\jolli-recall\SKILL.md
+[2026-08-09T18:45:50.257Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 2) to C:\Users\my\Ai-job-App-Agent-Saas-app\.agents\skills\jolli-search\SKILL.md
+[2026-08-09T18:45:50.268Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 5) to C:\Users\my\Ai-job-App-Agent-Saas-app\.agents\skills\jolli-local-run\SKILL.md
+[2026-08-09T18:45:50.273Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 4) to C:\Users\my\Ai-job-App-Agent-Saas-app\.agents\skills\jolli-remote-run\SKILL.md
+[2026-08-09T18:45:50.280Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 6) to C:\Users\my\Ai-job-App-Agent-Saas-app\.agents\skills\jolli\SKILL.md
+[2026-08-09T18:45:50.360Z] INFO  [GitExclude] Updated C:\Users\my\Ai-job-App-Agent-Saas-app\.git\info\exclude with 7 Jolli skill exclude paths
+[2026-08-09T18:45:50.362Z] INFO  [McpRegistration] Registered MCP server in C:\Users\my\Ai-job-App-Agent-Saas-app\.mcp.json
+[2026-08-09T18:45:50.369Z] INFO  [CodexTomlWriter] Registered Codex MCP server in C:\Users\my\.codex\config.toml
+[2026-08-09T18:45:50.390Z] INFO  [JsonMcpWriter] Registered MCP server in C:\Users\my\AppData\Roaming\Code\User\mcp.json
+[2026-08-09T18:45:50.397Z] INFO  [GitHookInstaller] Git post-commit hook installed
+[2026-08-09T18:45:50.401Z] INFO  [GitHookInstaller] Git post-rewrite hook installed
+[2026-08-09T18:45:50.406Z] INFO  [GitHookInstaller] Git prepare-commit-msg hook installed
+[2026-08-09T18:45:50.411Z] INFO  [GitHookInstaller] Git post-merge hook installed
+[2026-08-09T18:45:50.419Z] INFO  [GitHookInstaller] Git pre-push hook installed
+[2026-08-09T18:45:50.422Z] INFO  [Installer] Skipping v5 migration on vscode-extension source — Extension.ts owns it with UI
+[2026-08-09T18:45:50.422Z] INFO  [Installer] Installation complete
+[2026-08-09T18:45:50.424Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-09T18:45:50.433Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-09T18:45:51.162Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-09T18:45:51.437Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-09T18:45:51.498Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-09T18:45:59.393Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-10T08:25:42.373Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"c:\\Users\\my\\Ai-job-App-Agent-Saas-app","extensionPath":"c:\\Users\\my\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.10"}
+[2026-08-10T08:25:47.696Z] INFO  [initialLoad] Loading all panels
+[2026-08-10T08:26:00.792Z] INFO  [plans] detectPlans found 0 plans (0 in registry)
+[2026-08-10T08:26:00.792Z] INFO  [notes] detectNotes found 0 notes (0 in registry)
+[2026-08-10T08:26:00.792Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-08-10T08:26:00.792Z] INFO  [skills] detectSkills found 0 active (0 in registry)
+[2026-08-10T08:26:00.794Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-10T08:26:04.589Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-10T08:26:04.599Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-10T08:26:04.601Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-10T08:26:12.870Z] INFO  [Sync:VsCodeBootstrap] Memory Bank sync engine built (auto-sync off — manual only)
+[2026-08-10T08:26:14.186Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-10T08:26:19.452Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-10T08:26:34.493Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-10T08:26:37.413Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-10T08:26:37.468Z] ERROR [initialLoad] Failed to load panels {"code":128,"killed":false,"signal":null,"cmd":"git rev-parse HEAD","stdout":"HEAD\n","stderr":"fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\n"}
+[2026-08-10T08:26:38.961Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-10T08:26:40.416Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-10T08:26:42.095Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-08-10T08:26:42.095Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-08-10T08:26:51.114Z] WARN  [activate] kbInitPromise watchdog fired after 60s — releasing sync gate; check initializeKB() for hangs
+[2026-08-10T08:27:00.887Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-10T08:27:00.988Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-10T08:27:01.238Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-10T08:27:03.690Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-10T08:27:03.707Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-10T08:27:05.709Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=1, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-11T16:06:31.795Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"c:\\Users\\my\\Ai-job-App-Agent-Saas-app","extensionPath":"c:\\Users\\my\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.10"}
+[2026-08-11T16:06:32.151Z] INFO  [initialLoad] Loading all panels
+[2026-08-11T16:07:01.520Z] INFO  [plans] detectPlans found 0 plans (0 in registry)
+[2026-08-11T16:07:01.520Z] INFO  [notes] detectNotes found 0 notes (0 in registry)
+[2026-08-11T16:07:01.520Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-08-11T16:07:01.520Z] INFO  [skills] detectSkills found 0 active (0 in registry)
+[2026-08-11T16:07:14.144Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-11T16:07:14.372Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-11T16:07:14.382Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-11T16:07:14.397Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-11T16:07:15.268Z] INFO  [Sync:VsCodeBootstrap] Memory Bank sync engine built (auto-sync off — manual only)
+[2026-08-11T16:07:17.549Z] ERROR [initialLoad] Failed to load panels {"code":128,"killed":false,"signal":null,"cmd":"git rev-parse HEAD","stdout":"HEAD\n","stderr":"fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\n"}
+[2026-08-11T16:07:18.297Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-11T16:07:18.548Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-11T16:07:18.669Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-11T16:07:18.910Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-11T16:07:19.244Z] INFO  [StorageFactory] StorageFactory.create: storageMode=dual-write, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-11T16:07:19.531Z] INFO  [StorageFactory] Storage mode: dual-write (primary=orphan, shadow=folder)
+[2026-08-11T16:07:20.545Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-08-11T16:07:20.545Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-08-11T16:07:25.481Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-11T16:07:25.517Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-11T16:07:25.523Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-11T16:07:26.755Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-11T16:07:26.782Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-11T16:07:28.889Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:41:26.051Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"c:\\Users\\my\\Ai-job-App-Agent-Saas-app","extensionPath":"c:\\Users\\my\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.11"}
+[2026-08-12T07:41:27.063Z] INFO  [initialLoad] Loading all panels
+[2026-08-12T07:42:07.348Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-08-12T07:42:07.348Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-08-12T07:42:07.348Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-08-12T07:42:07.349Z] INFO  [SkillProjection] projectActiveSkills: 0 active (0 in registry)
+[2026-08-12T07:42:10.921Z] INFO  [Sync:VsCodeBootstrap] Memory Bank sync engine built (auto-sync off — manual only)
+[2026-08-12T07:42:16.701Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:42:16.702Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:42:17.867Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:42:19.451Z] INFO  [bridge] Own dist-paths/vscode missing, stale, or pointing elsewhere — re-enabling
+[2026-08-12T07:42:19.451Z] INFO  [bridge] enable() called
+[2026-08-12T07:42:20.319Z] ERROR [initialLoad] Failed to load panels {"code":128,"killed":false,"signal":null,"cmd":"git rev-parse HEAD","stdout":"HEAD\n","stderr":"fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\n"}
+[2026-08-12T07:42:21.001Z] INFO  [Installer] Installing Jolli Memory hooks
+[2026-08-12T07:42:22.055Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:42:22.056Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:42:23.603Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:42:23.604Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:42:25.063Z] INFO  [DispatchScripts] Wrote resolve-dist-path, run-hook, and run-cli scripts to C:\Users\my\.jolli\jollimemory
+[2026-08-12T07:42:25.067Z] INFO  [DistPathWriter] Wrote dist-paths/vscode (version=0.99.11, distDir=c:\Users\my\.vscode\extensions\jolli.jollimemory-vscode-0.99.11\dist)
+[2026-08-12T07:42:27.031Z] WARN  [activate] kbInitPromise watchdog fired after 60s — releasing sync gate; check initializeKB() for hangs
+[2026-08-12T07:42:27.954Z] INFO  [GitExclude] Updated C:\Users\my\Ai-job-App-Agent-Saas-app\.git\info\exclude with 8 Jolli skill exclude paths
+[2026-08-12T07:42:27.957Z] INFO  [McpRegistration] Registered MCP server in C:\Users\my\Ai-job-App-Agent-Saas-app\.mcp.json
+[2026-08-12T07:42:27.986Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:42:27.987Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:42:30.304Z] INFO  [JsonMcpWriter] Registered MCP server in C:\Users\my\Ai-job-App-Agent-Saas-app\.cursor\mcp.json
+[2026-08-12T07:42:30.642Z] INFO  [CodexTomlWriter] Registered Codex MCP server in C:\Users\my\.codex\config.toml
+[2026-08-12T07:42:30.731Z] INFO  [JsonMcpWriter] Registered MCP server in C:\Users\my\AppData\Roaming\Code\User\mcp.json
+[2026-08-12T07:42:30.846Z] INFO  [SessionTracker] Config saved to C:\Users\my\.jolli\jollimemory
+[2026-08-12T07:42:30.846Z] INFO  [Installer] Cursor detected (IDE=true, CLI=false) — enabled session discovery
+[2026-08-12T07:42:30.866Z] INFO  [Installer] Skipping v5 migration on vscode-extension source — Extension.ts owns it with UI
+[2026-08-12T07:42:30.866Z] INFO  [Installer] Installation complete
+[2026-08-12T07:42:30.887Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:42:31.874Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-08-12T07:42:31.874Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-08-12T07:42:32.956Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/undefined, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:42:33.637Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:42:35.319Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:42:35.371Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:42:41.287Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:42:41.289Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:42:44.903Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:49:48.027Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"c:\\Users\\my\\Ai-job-App-Agent-Saas-app","extensionPath":"c:\\Users\\my\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.11"}
+[2026-08-12T07:49:48.466Z] INFO  [initialLoad] Loading all panels
+[2026-08-12T07:49:50.183Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-08-12T07:49:50.183Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-08-12T07:49:50.183Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-08-12T07:49:50.184Z] INFO  [SkillProjection] projectActiveSkills: 0 active (0 in registry)
+[2026-08-12T07:49:51.335Z] INFO  [Sync:VsCodeBootstrap] Memory Bank sync engine built (auto-sync off — manual only)
+[2026-08-12T07:49:51.605Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:49:51.606Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:49:51.984Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:49:51.984Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:49:58.899Z] ERROR [initialLoad] Failed to load panels {"code":128,"killed":false,"signal":null,"cmd":"git rev-parse HEAD","stdout":"HEAD\n","stderr":"fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\n"}
+[2026-08-12T07:50:02.744Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:50:02.745Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:50:03.046Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:50:03.046Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:50:08.564Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:50:08.564Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:50:14.715Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-08-12T07:50:14.715Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-08-12T07:50:15.024Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:50:17.859Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:50:17.867Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:50:18.310Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:50:23.848Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:50:23.849Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:50:27.800Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:52:44.426Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"c:\\Users\\my\\Ai-job-App-Agent-Saas-app","extensionPath":"c:\\Users\\my\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.11"}
+[2026-08-12T07:52:46.507Z] INFO  [initialLoad] Loading all panels
+[2026-08-12T07:52:56.359Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-08-12T07:52:56.360Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-08-12T07:52:56.360Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-08-12T07:52:56.360Z] INFO  [SkillProjection] projectActiveSkills: 0 active (0 in registry)
+[2026-08-12T07:52:58.961Z] INFO  [Sync:VsCodeBootstrap] Memory Bank sync engine built (auto-sync off — manual only)
+[2026-08-12T07:52:59.354Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:52:59.354Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:52:59.612Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:52:59.612Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:52:59.622Z] ERROR [initialLoad] Failed to load panels {"code":128,"killed":false,"signal":null,"cmd":"git rev-parse HEAD","stdout":"HEAD\n","stderr":"fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\n"}
+[2026-08-12T07:53:00.363Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:53:00.363Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:53:01.303Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:53:01.303Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:53:06.617Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:53:06.617Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T07:53:07.796Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-08-12T07:53:07.796Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-08-12T07:53:08.322Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:53:09.759Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:53:09.975Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:53:10.287Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:53:13.650Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:53:13.733Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-12T07:53:16.358Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=2, summaries=0, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-12T07:55:03.593Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=C:/Users/my/Ai-job-App-Agent-Saas-app)
+[2026-08-12T07:55:04.832Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-08-12T07:55:04.870Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=C:/Users/my/Ai-job-App-Agent-Saas-app)
+[2026-08-12T07:55:05.869Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-08-12T07:55:06.260Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=C:/Users/my/Ai-job-App-Agent-Saas-app)
+[2026-08-12T07:55:06.739Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-08-12T07:55:12.582Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=C:/Users/my/Ai-job-App-Agent-Saas-app)
+[2026-08-12T07:55:12.878Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-08-12T07:55:23.871Z] INFO  [SkillAutoRefresh] [trace=d0a45643bb65c10eea76e7f93de8d7b3] Refreshed Jolli skills at c:\Users\my\Ai-job-App-Agent-Saas-app for version 0.99.11
+[2026-08-12T07:55:24.205Z] WARN  [CutoverRouter] [trace=4b976559a4f8dcb08c71682a788cf126] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:55:24.206Z] INFO  [StorageFactory] [trace=4b976559a4f8dcb08c71682a788cf126] StorageFactory.create: route=uncutover, projectPath=C:/Users/my/Ai-job-App-Agent-Saas-app
+[2026-08-12T07:55:27.021Z] INFO  [McpServer] [trace=4b976559a4f8dcb08c71682a788cf126] MCP server connected over stdio (cwd=C:/Users/my/Ai-job-App-Agent-Saas-app)
+[2026-08-12T07:55:47.778Z] WARN  [CutoverRouter] [trace=55d356ac90efac957427c4c788948079] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T07:55:47.779Z] INFO  [StorageFactory] [trace=55d356ac90efac957427c4c788948079] StorageFactory.create: route=uncutover, projectPath=C:/Users/my/Ai-job-App-Agent-Saas-app
+[2026-08-12T07:55:51.183Z] INFO  [McpServer] [trace=55d356ac90efac957427c4c788948079] MCP server connected over stdio (cwd=C:/Users/my/Ai-job-App-Agent-Saas-app)
+[2026-08-12T08:20:56.676Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-08-12T08:21:28.564Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
