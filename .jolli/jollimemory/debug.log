@@ -212,3 +212,38 @@
 [2026-08-12T07:55:51.183Z] INFO  [McpServer] [trace=55d356ac90efac957427c4c788948079] MCP server connected over stdio (cwd=C:/Users/my/Ai-job-App-Agent-Saas-app)
 [2026-08-12T08:20:56.676Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
 [2026-08-12T08:21:28.564Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-08-12T08:23:14.962Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook started (source: ) ===
+[2026-08-12T08:23:15.134Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook finished ===
+[2026-08-12T08:26:22.850Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook started (source: message) ===
+[2026-08-12T08:26:22.938Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook finished ===
+[2026-08-12T08:26:29.113Z] INFO  [PostCommitHook] [trace=a493def3e1aff66f55b19a21ad679d9d] Detected operation: commit
+[2026-08-12T08:26:29.231Z] INFO  [PostCommitHook] [trace=a493def3e1aff66f55b19a21ad679d9d] Enqueued: type=commit hash=1cd35f73
+[2026-08-12T08:26:29.231Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Launching background worker
+[2026-08-12T08:26:29.247Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Background worker spawned (PID: 2532)
+[2026-08-12T08:26:39.059Z] WARN  [CutoverRouter] [trace=a493def3e1aff66f55b19a21ad679d9d] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T08:26:39.060Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] === Queue worker started === node=26.5.1 kind=vscode-plugin source=vscode pkgVer=0.99.11 cliVer=0.99.11 dist=c:\Users\my\.vscode\extensions\jolli.jollimemory-vscode-0.99.11\dist
+[2026-08-12T08:26:39.129Z] WARN  [CutoverRouter] [trace=a493def3e1aff66f55b19a21ad679d9d] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-08-12T08:26:39.129Z] INFO  [StorageFactory] [trace=a493def3e1aff66f55b19a21ad679d9d] StorageFactory.create: route=uncutover, projectPath=C:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-12T08:26:40.005Z] INFO  [CodexDiscovery] [trace=a493def3e1aff66f55b19a21ad679d9d] Codex discovery pass: 1 session(s) scanned, 1 advanced
+[2026-08-12T08:26:40.052Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Processing queue entry: type=commit hash=1cd35f73
+[2026-08-12T08:26:41.486Z] INFO  [GitOps] [trace=a493def3e1aff66f55b19a21ad679d9d] Commit 1cd35f73: Add package.json and package-lock.json for Supabase dependen
+[2026-08-12T08:26:41.486Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Commit: 1cd35f73 - Add package.json and package-lock.json for Supabase dependencies (330ms)
+[2026-08-12T08:26:41.491Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Discovered 1 Codex session(s)
+[2026-08-12T08:26:41.567Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Discovered 2 Cursor session(s)
+[2026-08-12T08:26:41.573Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Discovered 1 Copilot Chat session(s)
+[2026-08-12T08:26:41.593Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Transcript source: session=019ff4f7-f260-7db2-8047-4cfa960fb4fe, lines=0→211, entries=2
+[2026-08-12T08:26:41.671Z] INFO  [CursorTranscriptReader] [trace=a493def3e1aff66f55b19a21ad679d9d] Read Cursor session 8a1eaf02: 142 new bubbles, 4 entries extracted (index 0→142)
+[2026-08-12T08:26:41.671Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Transcript source: session=8a1eaf02-e2fb-4b65-9a7e-7762c9c04159, lines=0→142, entries=4
+[2026-08-12T08:26:41.691Z] INFO  [CursorTranscriptReader] [trace=a493def3e1aff66f55b19a21ad679d9d] Read Cursor session 170cb044: 65 new bubbles, 2 entries extracted (index 0→65)
+[2026-08-12T08:26:41.691Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Transcript source: session=170cb044-dec4-4d2d-98c4-e58e34d42835, lines=0→65, entries=2
+[2026-08-12T08:26:41.727Z] ERROR [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Skipping Copilot Chat session a6d7b311-6bfe-4b5f-991e-b1b9790dfd57: Copilot Chat scan failed (schema): requests is not an array
+[2026-08-12T08:26:41.890Z] WARN  [GitOps] [trace=a493def3e1aff66f55b19a21ad679d9d] Diff failed, trying diff of HEAD against empty tree
+[2026-08-12T08:26:44.469Z] WARN  [GitOps] [trace=a493def3e1aff66f55b19a21ad679d9d] Diff exceeds 150000-char budget (9387747 chars) — prepending --stat file list and truncating body
+[2026-08-12T08:26:44.632Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Git diff: 0 files changed, +0 -0 (2.9s)
+[2026-08-12T08:26:44.908Z] WARN  [GitOps] [trace=a493def3e1aff66f55b19a21ad679d9d] Diff failed, trying diff of HEAD against empty tree
+[2026-08-12T08:26:47.522Z] WARN  [GitOps] [trace=a493def3e1aff66f55b19a21ad679d9d] Diff exceeds 60000-char budget (9387747 chars) — prepending --stat file list and truncating body
+[2026-08-12T08:26:47.555Z] INFO  [QueueWorker] [trace=a493def3e1aff66f55b19a21ad679d9d] Prompt blocks: plans=0 notes=0 references=0 (+0 track-only archived, not prompted) (AI soft-excluded 0)
+[2026-08-12T08:26:47.557Z] INFO  [Summarizer] [trace=a493def3e1aff66f55b19a21ad679d9d] Generating summary for commit 1cd35f73
+[2026-08-12T08:26:47.557Z] INFO  [Summarizer] [trace=a493def3e1aff66f55b19a21ad679d9d] Context: transcript=8, files=0, lines=0+0
+[2026-08-12T08:26:47.558Z] INFO  [LlmClient] [trace=a493def3e1aff66f55b19a21ad679d9d] LLM call: action=summarize source=jolli-proxy
+[2026-08-12T08:26:47.560Z] INFO  [LlmClient] [trace=a493def3e1aff66f55b19a21ad679d9d] Proxy LLM call: action=summarize url=https://jolli.ai/api/push/llm/complete
