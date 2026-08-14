@@ -485,3 +485,32 @@
 [2026-08-12T10:37:34.163Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"1cd35f73","author":"samiya mahmud"}
 [2026-08-12T10:37:34.820Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
 [2026-08-12T10:37:38.145Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"1cd35f73","author":"samiya mahmud"}
+[2026-08-12T13:35:34.990Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook started (source: ) ===
+[2026-08-12T13:35:35.098Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook finished ===
+[2026-08-13T08:14:11.486Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"c:\\Users\\my\\Ai-job-App-Agent-Saas-app","extensionPath":"c:\\Users\\my\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.11"}
+[2026-08-13T08:14:13.565Z] INFO  [initialLoad] Loading all panels
+[2026-08-13T08:14:23.726Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-08-13T08:14:23.727Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-08-13T08:14:23.727Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-08-13T08:14:23.727Z] INFO  [SkillProjection] projectActiveSkills: 0 active (0 in registry)
+[2026-08-13T08:14:39.792Z] INFO  [Sync:VsCodeBootstrap] Memory Bank sync engine built (auto-sync off — manual only)
+[2026-08-13T08:14:46.810Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-13T08:14:49.976Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-13T08:14:49.976Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-13T08:14:50.001Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"1cd35f73","author":"samiya mahmud"}
+[2026-08-13T08:14:54.314Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-13T08:15:03.128Z] INFO  [activate] Schema v5 migration already complete — skipping (no UI toggle)
+[2026-08-13T08:15:06.073Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=7, summaries=2, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-13T08:15:06.117Z] INFO  [initialLoad] All panels loaded — updating status bar
+[2026-08-13T08:15:06.117Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-13T08:15:06.805Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=7, summaries=2, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-13T08:15:06.807Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-13T08:15:07.507Z] INFO  [MigrationEngine] 0.99.2 head-regen already completed at 2026-08-12T10:37:31.348Z — skipping phase 1
+[2026-08-13T08:15:07.528Z] INFO  [MigrationEngine] Stale-child sweep: deleted=0 failed=0
+[2026-08-13T08:15:07.530Z] INFO  [activate] KB stale-child reconcile: swept=0 completedAt=2026-08-12T10:37:31.348Z
+[2026-08-13T08:15:12.318Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=7, summaries=2, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-13T08:15:13.773Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-13T08:15:14.545Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=7, summaries=2, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-08-13T08:15:16.316Z] INFO  [Installer] Checking Jolli Memory status
+[2026-08-13T08:15:16.757Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=c:\Users\my\Ai-job-App-Agent-Saas-app
+[2026-08-13T08:15:17.825Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=false, worktreeHooks=true, sessions=7, summaries=2, codex=true/true, gemini=false/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=true/true, copilot=false/true, copilotChat=true, cline=false/undefined
