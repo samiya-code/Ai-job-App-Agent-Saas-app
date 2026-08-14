@@ -27,6 +27,8 @@ import {
   FieldSet,
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
+import { ProfileCompletenessCard } from "@/components/profile/profile-completeness-card"
+import { PROFILE_SECTIONS } from "@/components/profile/profile-sections"
 import { Spinner } from "@/components/ui/spinner"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Textarea } from "@/components/ui/textarea"
@@ -117,16 +119,16 @@ export function ProfileForm({ initialData }: ProfileFormProps) {
 
   return (
     <div className="flex flex-col gap-6">
+      <ProfileCompletenessCard form={form} />
+
       <Tabs defaultValue="personal">
-        <TabsList className="flex-wrap">
-          <TabsTrigger value="personal">Personal</TabsTrigger>
-          <TabsTrigger value="summary">Summary</TabsTrigger>
-          <TabsTrigger value="experience">Experience</TabsTrigger>
-          <TabsTrigger value="education">Education</TabsTrigger>
-          <TabsTrigger value="skills">Skills</TabsTrigger>
-          <TabsTrigger value="projects">Projects</TabsTrigger>
-          <TabsTrigger value="certifications">Certifications</TabsTrigger>
-          <TabsTrigger value="links">Links</TabsTrigger>
+        <TabsList className="flex-wrap group-data-horizontal/tabs:h-auto">
+          {PROFILE_SECTIONS.map((section) => (
+            <TabsTrigger key={section.value} value={section.value}>
+              <HugeiconsIcon icon={section.icon} strokeWidth={2} />
+              {section.label}
+            </TabsTrigger>
+          ))}
         </TabsList>
 
         <TabsContent value="personal" className="mt-4">
