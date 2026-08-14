@@ -10,6 +10,18 @@ Run `supabase/migrations/20260812000000_auth_profiles.sql` in the Supabase SQL E
 
 Then run `supabase/migrations/20260813000000_resume_onboarding.sql`. It extends `profiles`, adds resume/profile child tables, creates the private `resumes` storage bucket, and configures storage RLS policies.
 
+Then run `supabase/migrations/20260814000000_jobs.sql`. It creates the `jobs` table used by the Jobs page to cache job matches fetched from external platforms, with row-level security policies.
+
+## Brave Search (job matching)
+
+The Jobs page fetches job listings from Greenhouse, Lever, Workable, and Wellfound through the Brave Search API. Add this server-only variable to `.env.local`:
+
+```env
+BRAVE_SEARCH_API_KEY=your-brave-search-api-key
+```
+
+Get an API key from the [Brave Search API dashboard](https://api-dashboard.search.brave.com/). Results are cached in the `jobs` table for 6 hours per user before the API is called again.
+
 ## Gemini AI (resume parsing)
 
 Add these server-only variables to `.env.local`:

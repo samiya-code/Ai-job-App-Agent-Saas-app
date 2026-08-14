@@ -285,6 +285,72 @@ export type Database = {
         }
         Relationships: []
       }
+      jobs: {
+        Row: {
+          id: string
+          user_id: string
+          platform: string
+          title: string
+          company: string
+          company_logo: string | null
+          location: string | null
+          salary: string | null
+          job_type: string | null
+          experience_level: string | null
+          description: string | null
+          tags: Json
+          match_score: number
+          job_url: string
+          source_url: string | null
+          applied_status: boolean
+          saved_status: boolean
+          fetched_at: string
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          platform: string
+          title: string
+          company: string
+          company_logo?: string | null
+          location?: string | null
+          salary?: string | null
+          job_type?: string | null
+          experience_level?: string | null
+          description?: string | null
+          tags?: Json
+          match_score?: number
+          job_url: string
+          source_url?: string | null
+          applied_status?: boolean
+          saved_status?: boolean
+          fetched_at?: string
+          created_at?: string
+        }
+        Update: {
+          id?: string
+          user_id?: string
+          platform?: string
+          title?: string
+          company?: string
+          company_logo?: string | null
+          location?: string | null
+          salary?: string | null
+          job_type?: string | null
+          experience_level?: string | null
+          description?: string | null
+          tags?: Json
+          match_score?: number
+          job_url?: string
+          source_url?: string | null
+          applied_status?: boolean
+          saved_status?: boolean
+          fetched_at?: string
+          created_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
@@ -311,6 +377,8 @@ export type Skill = Database["public"]["Tables"]["skills"]["Row"]
 export type Project = Database["public"]["Tables"]["projects"]["Row"]
 export type Certification =
   Database["public"]["Tables"]["certifications"]["Row"]
+export type Job = Database["public"]["Tables"]["jobs"]["Row"]
+export type JobInsert = Database["public"]["Tables"]["jobs"]["Insert"]
 
 export type ProfileLink = {
   label: string
