@@ -1,15 +1,23 @@
 "use client"
 
-import { useState, useTransition } from "react"
+import { useMemo, useState, useTransition } from "react"
 import { toast } from "sonner"
 import { HugeiconsIcon } from "@hugeicons/react"
 import {
   Add01Icon,
+  Briefcase01Icon,
+  Certificate01Icon,
   Delete02Icon,
+  FolderLibraryIcon,
+  Link01Icon,
+  Mortarboard02Icon,
+  StarIcon,
+  TextAlignLeftIcon,
+  UserIcon,
 } from "@hugeicons/core-free-icons"
 
 import { updateProfile, type ProfileFormInput } from "@/app/dashboard/profile/actions"
-import { parseOtherLinks } from "@/lib/profile/utils"
+import { calculateProfileCompleteness, parseOtherLinks } from "@/lib/profile/utils"
 import type { ProfileData } from "@/lib/supabase/database.types"
 import { Button } from "@/components/ui/button"
 import {
@@ -30,6 +38,18 @@ import { Input } from "@/components/ui/input"
 import { Spinner } from "@/components/ui/spinner"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Textarea } from "@/components/ui/textarea"
+import { ProfileCompletenessCard } from "@/components/profile/profile-completeness-card"
+
+const sectionIcons = {
+  personal: UserIcon,
+  summary: TextAlignLeftIcon,
+  experience: Briefcase01Icon,
+  education: Mortarboard02Icon,
+  skills: StarIcon,
+  projects: FolderLibraryIcon,
+  certifications: Certificate01Icon,
+  links: Link01Icon,
+} as const
 
 function toFormInput(data: ProfileData): ProfileFormInput {
   return {
@@ -89,6 +109,7 @@ type ProfileFormProps = {
 export function ProfileForm({ initialData }: ProfileFormProps) {
   const [form, setForm] = useState<ProfileFormInput>(() => toFormInput(initialData))
   const [isPending, startTransition] = useTransition()
+  const completeness = useMemo(() => calculateProfileCompleteness(form), [form])
 
   const handleSave = () => {
     startTransition(async () => {
@@ -117,16 +138,48 @@ export function ProfileForm({ initialData }: ProfileFormProps) {
 
   return (
     <div className="flex flex-col gap-6">
+      <ProfileCompletenessCard
+        percent={completeness.percent}
+        items={completeness.sections.map((section) => ({
+          ...section,
+          icon: sectionIcons[section.key as keyof typeof sectionIcons],
+        }))}
+      />
+
       <Tabs defaultValue="personal">
         <TabsList className="flex-wrap">
-          <TabsTrigger value="personal">Personal</TabsTrigger>
-          <TabsTrigger value="summary">Summary</TabsTrigger>
-          <TabsTrigger value="experience">Experience</TabsTrigger>
-          <TabsTrigger value="education">Education</TabsTrigger>
-          <TabsTrigger value="skills">Skills</TabsTrigger>
-          <TabsTrigger value="projects">Projects</TabsTrigger>
-          <TabsTrigger value="certifications">Certifications</TabsTrigger>
-          <TabsTrigger value="links">Links</TabsTrigger>
+          <TabsTrigger value="personal">
+            <HugeiconsIcon icon={UserIcon} strokeWidth={2} data-icon="inline-start" />
+            Personal
+          </TabsTrigger>
+          <TabsTrigger value="summary">
+            <HugeiconsIcon icon={TextAlignLeftIcon} strokeWidth={2} data-icon="inline-start" />
+            Summary
+          </TabsTrigger>
+          <TabsTrigger value="experience">
+            <HugeiconsIcon icon={Briefcase01Icon} strokeWidth={2} data-icon="inline-start" />
+            Experience
+          </TabsTrigger>
+          <TabsTrigger value="education">
+            <HugeiconsIcon icon={Mortarboard02Icon} strokeWidth={2} data-icon="inline-start" />
+            Education
+          </TabsTrigger>
+          <TabsTrigger value="skills">
+            <HugeiconsIcon icon={StarIcon} strokeWidth={2} data-icon="inline-start" />
+            Skills
+          </TabsTrigger>
+          <TabsTrigger value="projects">
+            <HugeiconsIcon icon={FolderLibraryIcon} strokeWidth={2} data-icon="inline-start" />
+            Projects
+          </TabsTrigger>
+          <TabsTrigger value="certifications">
+            <HugeiconsIcon icon={Certificate01Icon} strokeWidth={2} data-icon="inline-start" />
+            Certifications
+          </TabsTrigger>
+          <TabsTrigger value="links">
+            <HugeiconsIcon icon={Link01Icon} strokeWidth={2} data-icon="inline-start" />
+            Links
+          </TabsTrigger>
         </TabsList>
 
         <TabsContent value="personal" className="mt-4">
