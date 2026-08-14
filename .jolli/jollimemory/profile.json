@@ -1,4 +1,12 @@
 {
-	"manuallyDisabled": false,
-	"userDisabled": false
+	"manuallyDisabled": true,
+	"userDisabled": false,
+	"cutoverAttemptedAtMs": 1786523296363,
+	"cutoverFence": {
+		"reason": "cutover to sqlite",
+		"at": "2026-08-12T08:28:16.510Z",
+		"tips": {
+			"c:\\Users\\my\\Ai-job-App-Agent-Saas-app": "100dcd01afc5977ab5430be6f3225d7ffb7429fa"
+		}
+	}
 }
